@@ -16,10 +16,12 @@ const initHomeTab = (div_content) => {
 
 	// Init info
 	const p_welcome = document.createElement('p');
+	p_welcome.classList.add('font-roboto', 'text-xl');
 	p_welcome.appendChild(document.createTextNode("Welcome to the Blueprint Cafe."));
 	div_content.appendChild(p_welcome);
 
 	const p_info = document.createElement('p');
+	p_info.classList.add('font-roboto', 'text-xl');
 	p_info.appendChild(document.createTextNode("We provide all sorts of coffee an all kind of snacks that you can imagine. Just check out our website and we hope to see you soon."));
 	div_content.appendChild(p_info);
 }
